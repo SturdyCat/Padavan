@@ -1218,6 +1218,9 @@ setTimeout('document.getElementById("btn_ctime").style.display="none";',1000);
 					    else if(queryParam.flow == 'xtls-rprx-splice'){
 					    	document.getElementById('v2_flow').value = '2';
 					    }
+							else if(queryParam.flow == 'xtls-rprx-vision'){
+					    	document.getElementById('v2_flow').value = '3';
+					    }
 					    else
 					    {
 					    	document.getElementById('v2_flow').value = '0';
@@ -2332,6 +2335,7 @@ setTimeout('document.getElementById("btn_ctime").style.display="none";',1000);
 																	<option value="0">未配置</option>
 																	<option value="1">xtls-rprx-direct</option>
 																	<option value="2">xtls-rprx-splice</option>
+																	<option value="3">xtls-rprx-vision</option>
 																</select>
 
 															</td>
